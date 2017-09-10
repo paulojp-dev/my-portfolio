@@ -7,7 +7,7 @@ Basic portfolio with HTML5, CSS3 and Bootstrap.
 - Bootstrap
 - JavaScript
 
-## Prints da Tela
+## Prints
 ### Header
 <img src="https://github.com/paulojp-dev/basic-portfolio/blob/master/prints/header.png" alt="Header" />
 
