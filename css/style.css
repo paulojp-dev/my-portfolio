@@ -385,3 +385,24 @@ header {
     background-color: #262626;
 }
 /* <========= SKILLS =========| */
+
+.progress-bar .show-percentage {
+    opacity: 0;
+    animation: show 0.35s forwards ease-in-out 2.4s;
+}
+
+@keyframes show  {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.animated-progress-bar {
+    -webkit-transition: width 4.50s ease !important;
+    -moz-transition: width 4.50s ease !important;
+    -o-transition: width 4.50s ease !important;
+        transition: width 4.50s ease !important;
+}
