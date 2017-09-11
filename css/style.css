@@ -384,7 +384,6 @@ header {
 .infrastructure-panel .panel-footer, .infrastructure-panel .panel-heading {
     background-color: #262626;
 }
-/* <========= SKILLS =========| */
 
 .progress-bar .show-percentage {
     opacity: 0;
@@ -404,5 +403,19 @@ header {
     -webkit-transition: width 4.50s ease !important;
     -moz-transition: width 4.50s ease !important;
     -o-transition: width 4.50s ease !important;
-        transition: width 4.50s ease !important;
+    transition: width 4.50s ease !important;
 }
+/* <========= SKILLS =========| */
+
+
+/* |========= WORKERS =========> */
+.work-section {
+    background-color: #00cc99;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.work-section h2 {
+    color: #fff;
+}
+/* <========= WORKERS =========| */
