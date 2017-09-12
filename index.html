@@ -13,7 +13,7 @@
 
 <body>
 
-    <header>
+    <header id="header">
         <nav id="nav" class="navbar navbar-default navbar-fixed-top">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav-collapse" aria-expanded="false">
@@ -28,16 +28,16 @@
             <div class="collapse navbar-collapse" id="main-nav-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="#"><button class="btn-nav btn-nav-1 btn-nav-1a"><span class="glyphicon glyphicon-home"> Home</button></a>
+                        <a href="#header"><button class="btn-nav btn-nav-1 btn-nav-1a"><span class="glyphicon glyphicon-home"> Home</button></a>
                     </li>
                     <li>
-                        <a href="#"><button class="btn-nav btn-nav-1 btn-nav-1a"><span class="glyphicon glyphicon-list"> Skills</button></a>
+                        <a href="#skill"><button class="btn-nav btn-nav-1 btn-nav-1a"><span class="glyphicon glyphicon-list"> Skills</button></a>
                     </li>
                     <li>
-                        <a href="#"><button class="btn-nav btn-nav-1 btn-nav-1a"><span class="glyphicon glyphicon-briefcase"> Workers</button></a>
+                        <a href="#work"><button class="btn-nav btn-nav-1 btn-nav-1a"><span class="glyphicon glyphicon-briefcase"> Workers</button></a>
                     </li>
                     <li>
-                        <a href="#"><button class="btn-nav btn-nav-1 btn-nav-1a"><span class="glyphicon glyphicon-envelope"> Contact</button></a>
+                        <a href="#contact"><button class="btn-nav btn-nav-1 btn-nav-1a"><span class="glyphicon glyphicon-envelope"> Contact</button></a>
                     </li>
                 </ul>
             </div>
@@ -50,9 +50,9 @@
             </div>
 
             <div class="text-header">
-                Hi, my name is<span id="header-my-name">João Paulo F.</span>
+                <span id="header-my-name">João Paulo F.</span>
                 <br>
-                <span id="header-subtitle">I'm a Software Developper</span>
+                <span id="header-subtitle">Software Developper</span>
             </div>
 
             <hr>
@@ -78,11 +78,11 @@
         </div>
     </header>
 
-    <section class="skill-section">
+    <section id="skill" class="skill-section">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-ls-12">
-                    <h2 class="text-center">Skills</h2>
+                    <h2 class="text-center">Habilidades</h2>
 
                     <div class="row">
                         <div class="col-md-12 col-lg-12">
@@ -273,7 +273,7 @@
                             <div class="infrastructure-panel">
                                 <div class="panel panel-default">
                                     <div class="panel-heading text-center">
-                                        Infrastructure
+                                        Infraestrutura
                                     </div>
                                     <div class="panel-body">
                                         <div class="row">
@@ -379,9 +379,9 @@
         </div>
     </section>
 
-    <section class="work-section">
+    <section id="work" class="work-section">
         <div class="container">
-            <h2 class="text-center">Workers</h2>
+            <h2 class="text-center">Projetos</h2>
 
             <div class="row">
                 <div class="col-sm-12 col-md-6">
@@ -391,7 +391,7 @@
                             <img src="prints/header.png" alt="Portfolio">
                         </div>
                         <div class="caption">
-                            <h3>My Portfolio</h3>
+                            <h3>Basic Prtfolio</h3>
                             <p>Desenvolvido utilizando HTML5, CSS3, Bootstrap e JQuery. Para mais informações acessar a página
                                 do GitHub clicando no botão abaixo.</p>
                             <a href="#" class="btn btn-info" role="button">Info</a>
@@ -402,14 +402,14 @@
         </div>
     </section>
 
-    <section class="contact-section">
+    <section id="contact" class="contact-section">
         <div class="container">
-            <h2 class="text-center">Contact</h2>
+            <h2 class="text-center">Contato</h2>
 
             <div class="form-box">
                 <form action="https://api.formbucket.com/f/c2K3QTQ" method="post">
                     <div class="form-group">
-                        <label for="name">Name</label>
+                        <label for="name">Nome</label>
                         <input class="form-control" id="name" type="text" name="Name">
                     </div>
                     <div class="form-group">
@@ -417,10 +417,10 @@
                         <input class="form-control" id="email" type="email" name="Email">
                     </div>
                     <div class="form-group">
-                        <label for="message">Message</label>
+                        <label for="message">Mensagem</label>
                         <textarea class="form-control" id="message" name="Message"></textarea>
                     </div>
-                        <input class="btn btn-primary" type="submit" value="Submit" />
+                        <input class="btn btn-primary" type="submit" value="Enviar" />
                     </div>
                 </form>
             </div>
@@ -429,7 +429,7 @@
 
     <footer>
         <div class="container">
-            <p>&copy;João Paulo F. da Silva</p>
+            <p>&copy; João Paulo F. da Silva</p>
         </div>
     </footer>
 
