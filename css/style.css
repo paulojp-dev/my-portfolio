@@ -445,5 +445,33 @@ header {
     background-color: #999999;
     margin-bottom: 6px;
 }
-
 /* <========= WORKERS =========| */
+
+
+/* |========= CONTACT =========> */
+.contact-section {
+    background-color: #fff2e6;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.contact-section form {
+    color: #fff;
+    background: #262626;
+}
+
+.form-box {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 50px;
+    background: #262626;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-shadow:5px 8px 12px #595959;
+}
+
+.form-box input, .form-box textarea {
+    border: 1px solid #000;
+}
+/* <========= CONTACT =========| */
