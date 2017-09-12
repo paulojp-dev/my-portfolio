@@ -213,13 +213,20 @@ header {
 	height: 60px;
     text-indent: -9999px;
     background-size: 100%;
+    transition: 0.3s;
+    border: 2px solid #fff;
+    background-color: #fff;
+}
+
+.icon-social:hover {
+    transform: scale(1.15);
+    border: 2px solid #3399ff;
+    background-color: #3399ff;
 }
 
 .list-social a{
     padding: 1px;
-    border: 2px solid #fff;
     border-radius: 50%;
-    background-color: #fff;
 }
 
 .icon-github {
@@ -248,7 +255,7 @@ header {
 }
 
 #btn-header-position .btn-nav {
-    font-size: 16px;
+    font-size: 13px;
 }
 /* <========= HEADER =========| */
 
@@ -432,7 +439,8 @@ header {
 
 .work-section .thumbnail:hover {
     transform: scale(1.05);
-    box-shadow: 10px 10px 15px rgba(0,0,0,0.5);
+    box-shadow: 8px 8px 12px rgba(0,0,0,0.5);
+    border: 1px solid #262626;
 }
 
 .work-section .thumbnail .caption {
